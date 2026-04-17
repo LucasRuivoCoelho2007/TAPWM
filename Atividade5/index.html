@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Pesquisa sobre o filme assistido</h1>
+    <div id="card">
+        <h2 id="contador">Pessoa 1</h2>
+        <p id="paragrafo">Digite sua idade:</p>
+        <input type="number" id="idade" placeholder="Idade"><br><br>
+        <p id="paragrafo">Selecione seu gênero/sexo: </p>
+        <select id="sexo">
+            <option id="opcao" value="masculino">Masculino</option>
+            <option id="opcao" value="feminino">Feminino</option>
+            <option id="opcao" value="outros">Outros</option>
+        </select><br><br>
+        <p id="paragrafo">O que achou do filme?</p>
+        <select id="opiniao">
+            <option id="opcao" value="4">Ótimo</option>
+            <option id="opcao" value="3">Bom</option>
+            <option id="opcao" value="2">Regular</option>
+            <option id="opcao" value="1">Péssimo</option>
+        </select><br><br>
+
+        <button id="botao" onclick="proximo()">Próximo</button>
+    </div>
+    <div id="footer">Feito por: Lucas Ruivo Coelho</div>
+</body>
+</html>

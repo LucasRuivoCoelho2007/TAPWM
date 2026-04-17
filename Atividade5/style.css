@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'FonteLinda';
+  src: url('Chewy-Regular.ttf') format('truetype');
+}
+
+h1{
+    color:aqua;
+
+
+}
+
+body{
+    font-family: 'FonteLinda';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(5, 3, 10);
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#card{ 
+    border: 2px dashed rgb(25, 0, 255);
+    padding: 30px;
+    border-radius: 20px;
+    color: rgb(93, 166, 239);
+    background: linear-gradient(to left, #05001c, #021924);
+    text-align: center;
+    width: 30%;
+}
+
+#idade{
+    font-family: 'FonteLinda';
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(22, 30, 255, 0.256);
+    font-size: large;
+    color: rgb(93, 166, 239);
+    border: 2px dashed;
+}
+
+#idade:hover{
+    background-color: rgba(53, 60, 253, 0.256);
+}
+
+#paragrafo{
+    color: white;
+}
+
+#sexo{
+    font-family: 'FonteLinda';
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(22, 30, 255, 0.256);
+    font-size: large;
+    color: rgb(93, 166, 239);
+    border: 2px dashed;
+}
+
+#opiniao{
+    font-family: 'FonteLinda';
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: rgba(22, 30, 255, 0.256);
+    font-size: large;
+    color: rgb(93, 166, 239);
+    border: 2px dashed;
+}
+
+#opcao{
+    text-decoration: none;
+    font-style: none;
+    color: black;
+    font-size: medium;
+}
+
+#botao{
+    font-family: 'FonteLinda';
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #110158, #063348);
+    font-size: large;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    box-shadow: 0px 0px 10px 5px rgb(74, 59, 210);
+}
+
+#footer{
+    color:white;
+    background-color: #0d1417;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
