@@ -1,0 +1,21 @@
+.texto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.espaco{
+    width: 20px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagem{
+    width: 20%;
+}
