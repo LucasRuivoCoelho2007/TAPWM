@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Principal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário Principal</h1>
+    <hr>
+
+    <form id="formulario" method="post">
+        
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome" minlength="10" required>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" required>
+
+        <label for="comentario">Comentário</label>
+        <textarea name="comentario" id="comentario" minlength="20" required></textarea>
+        <div class="pesquisa">
+            <h2>Pesquisa:</h2>
+
+            <p>Primeira vez na página?</p>
+
+            <input type="radio" name="primeiraVez" id="sim" value="sim">
+            <label for="sim">Sim</label>
+
+            <input type="radio" name="primeiraVez" id="nao" value="nao">
+            <label for="nao">Não</label>
+
+            <br><br>
+
+            <button type="submit" id="enviar">Enviar</button>
+        </div>
+    
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
