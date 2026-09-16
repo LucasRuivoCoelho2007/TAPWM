@@ -1,0 +1,10 @@
+Para executar esse projeto, vai ser necessário baixar uns pacotes do npm:
+
+npm install express --save
+npm install ejs --save
+npm install nodemon --save-dev
+
+Ligue o server com
+npm start
+ou
+node app.js
